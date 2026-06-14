@@ -16,13 +16,13 @@ The motivating use case is the **PREVENT** equation for 10-year ASCVD risk predi
 ## Suggested workflow
 
 ### 1) Data preparation
-Use the R notebooks in `notebooks/01_data_preparation/` to assemble the study cohort, curate variables, and generate analytic artifacts in the Truveta environment.
+Use the R notebooks in `data preparation/` to assemble the study cohort, curate variables, and generate analytic artifacts in the Truveta environment.
 
 ### 2) Exploratory analysis
-Use `notebooks/02_exploratory_analysis/01_prevent_eda.ipynb` for exploratory checks, distributions, and intermediate validation.
+Use `exploratory_analysis` for exploratory checks, distributions, and intermediate validation.
 
 ### 3) Fairness metric analysis
-Use the notebooks in `notebooks/03_metric_analysis/` to compute:
+Use the notebooks in `analysis` to compute:
 
 - within-group CI / AUC
 - pairwise cross-group xCI / xAUC
